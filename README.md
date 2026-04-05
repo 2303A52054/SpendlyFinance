@@ -137,4 +137,4 @@ Switch roles using the dropdown in the sidebar:
 
 ---
 
-*Built by Varsha · SR University · School of CS & AI*
+*Built by Varshitha Gangula · SR University · School of CS & AI*
