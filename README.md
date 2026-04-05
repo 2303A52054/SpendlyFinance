@@ -1,14 +1,12 @@
-# 💸 Spendly — Finance Dashboard
+# Spendly — Finance Dashboard
 
 A clean, interactive personal finance dashboard built with React 18, Context API, Recharts, and localStorage. Built for the Zorvyn Frontend Developer Internship assignment.
-
-**Live Demo:** https://YOUR-USERNAME.github.io/spendly
 
 ---
 
 ## ✨ Features
 
-### Core Requirements ✅
+### Core Requirements 
 | Requirement | Implementation |
 |---|---|
 | Dashboard Overview | Summary cards (Balance, Income, Expenses, Savings Rate) + Balance Trend chart + Spending Breakdown pie chart |
@@ -18,16 +16,16 @@ A clean, interactive personal finance dashboard built with React 18, Context API
 | State Management | React Context API + useReducer — transactions, filters, role, dark mode all managed globally |
 | Responsive Design | Mobile sidebar overlay, responsive grids, hide columns on small screens |
 
-### Optional Enhancements ✅
-- 🌙 **Dark Mode** — one-click toggle, persisted in localStorage
-- 💾 **Data Persistence** — all state saved to localStorage across sessions
-- 📤 **Export** — CSV (Excel-safe with BOM + date formatting) and JSON export
-- 📅 **Scheduled/Upcoming Transactions** — unique 4th tab: see future recurring bills, confirm when paid, add new scheduled entries
-- 🔄 **Recurring transaction markers** — salary, rent, Netflix, gym pre-seeded as monthly recurring
+### Optional Enhancements 
+-  **Dark Mode** — one-click toggle, persisted in localStorage
+-  **Data Persistence** — all state saved to localStorage across sessions
+-  **Export** — CSV (Excel-safe with BOM + date formatting) and JSON export
+-  **Scheduled/Upcoming Transactions** — unique 4th tab: see future recurring bills, confirm when paid, add new scheduled entries
+-  **Recurring transaction markers** — salary, rent, Netflix, gym pre-seeded as monthly recurring
 
 ---
 
-## 📅 Data Range
+## Data Range
 
 - **Historical data:** April 2025 → April 2, 2026 (13 months)
 - **Demo date locked to:** April 2, 2026 (no transactions beyond today)
@@ -35,7 +33,7 @@ A clean, interactive personal finance dashboard built with React 18, Context API
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -67,7 +65,7 @@ src/
 
 ---
 
-## 🚀 Setup & Run
+## Setup & Run
 
 ```bash
 # 1. Install dependencies
@@ -83,7 +81,7 @@ npm run build
 
 ---
 
-## 🌐 Deploy to GitHub Pages
+##  Deploy to GitHub Pages
 
 ```bash
 # 1. Update package.json — replace YOUR-USERNAME:
@@ -105,7 +103,7 @@ npm run deploy
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** — UI framework
 - **Context API + useReducer** — state management
@@ -118,18 +116,18 @@ npm run deploy
 
 ---
 
-## 🔐 Role-Based UI
+## Role-Based UI
 
 Switch roles using the dropdown in the sidebar:
 
 | Role | Capabilities |
 |---|---|
-| 👑 Admin | View + Add + Edit + Delete transactions, schedule future transactions |
-| 👁 Viewer | View-only — all add/edit/delete buttons hidden |
+| Admin | View + Add + Edit + Delete transactions, schedule future transactions |
+| Viewer | View-only — all add/edit/delete buttons hidden |
 
 ---
 
-## 📊 Filters Available
+## Filters Available
 
 - **Date Range:** This Month / Last Month / Last 3M / Last 6M / Last Year / All Time
 - **Type:** Income / Expense / All
