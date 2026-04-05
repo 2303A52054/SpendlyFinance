@@ -1,10 +1,10 @@
 # Spendly — Finance Dashboard
 
-A clean, interactive personal finance dashboard built with React 18, Context API, Recharts, and localStorage. Built for the Zorvyn Frontend Developer Internship assignment.
+A clean, interactive personal finance dashboard built with React 18, Context API, Recharts, and localStorage.
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Requirements 
 | Requirement | Implementation |
