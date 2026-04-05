@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SpendlyFinance/static/css/main.2139af16.css",
+    "main.js": "/SpendlyFinance/static/js/main.1fdc9089.js",
+    "index.html": "/SpendlyFinance/index.html",
+    "main.2139af16.css.map": "/SpendlyFinance/static/css/main.2139af16.css.map",
+    "main.1fdc9089.js.map": "/SpendlyFinance/static/js/main.1fdc9089.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2139af16.css",
+    "static/js/main.1fdc9089.js"
+  ]
+}
